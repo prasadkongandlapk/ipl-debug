@@ -47,7 +47,7 @@ class TeamMatches extends Component {
       ),
     }
 
-    this.setState({teamMatchesData: formattedData, isLoading: true})
+    this.setState({teamMatchesData: formattedData, isLoading: false})
   }
 
   renderRecentMatchesList = () => {
